@@ -1,4 +1,4 @@
-const baseUrl = 'https://pokeapi.co/api/v2/type/'
+const baseUrl = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=1154'                                 
 
 fetch(baseUrl)
     .then(response => response.json())
