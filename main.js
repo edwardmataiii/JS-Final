@@ -22,11 +22,14 @@ if (question != null) {
 
 // console.log(eightBallResponses);
 
-
+// function eightBallAnswer() {
 const randomIndex = Math.floor(Math.random() * eightBallResponses.length);
-
 console.log(randomIndex)
-
 const randomResponse = eightBallResponses[randomIndex];
+// }
 
 console.log(randomResponse)
+
+function giveReply() {
+    document.getElementById("8ballresponse").innerHTML = randomResponse
+}
