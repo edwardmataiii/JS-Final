@@ -1,5 +1,28 @@
-/* .btn {
-    text-align: center;
-    flex-direction: column;
+p{ 
+    color: blue;
+    margin-top: 80px;
+    margin-left: 100px;
+}
 
-} */
+.btn {
+   color: rgb(0, 8, 8);
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    margin-top: 700px;
+    margin-left: 200px;
+    position: relative;
+}
+
+
+
+
+
+body {
+    max-width: 400px;
+    min-height: 100vh;
+    background-color: aqua;
+    margin: 0 auto;
+}

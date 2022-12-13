@@ -1,4 +1,3 @@
-
 const eightBallResponses = [
 
     'It is certain.',
@@ -14,17 +13,18 @@ const eightBallResponses = [
 
 
 function askQuestion() {
-const question = prompt("Please Ask Me A Question!", "Question here");
-if (question != null) {
-    document.getElementById("answer").innerHTML = question;
-    console.log(question)
-    giveReply()
-}};
-
-const randomIndex = Math.floor(Math.random() * eightBallResponses.length);
-const randomResponse = eightBallResponses[randomIndex];
-
-function giveReply() {
-    document.getElementById("8ballresponse").innerHTML = randomResponse
-    console.log(randomResponse)
+    const question = prompt("Please Ask Me A Question!", "Question here");
+    const randomIndex = Math.floor(Math.random() * eightBallResponses.length);
+    const randomResponse = eightBallResponses[randomIndex];
+    if (question != null) {
+        document.getElementById("answer").innerHTML = question;
+        console.log(question)
+        giveReply()
+        function giveReply() {
+            document.getElementById("8ballresponse").innerHTML = randomResponse
+            console.log(randomResponse)
+        };
+    }
 };
+
+
