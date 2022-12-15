@@ -1,28 +1,33 @@
-p{ 
-    color: blue;
-    margin-top: 80px;
+.eightball, img{
     margin-left: 100px;
+    align-items: center;
+    display: flex;
+
+}
+
+
+.answer{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.question{ 
+    color: blue;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .btn {
    color: rgb(0, 8, 8);
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
-    flex-direction: column;
-    margin: 100px;
-    margin-top: 700px;
-    margin-left: 200px;
-    position: relative;
+    align-self: center;
+    margin-left: 449px;
+    padding: 5px;
 }
-
-
 
 
 
 body {
-    max-width: 400px;
-    min-height: 100vh;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
 }
+
