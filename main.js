@@ -1,10 +1,4 @@
-// const baseUrl = 'https://pokeapi.co/api/v2/pokemon/'                                 
 
-// fetch(baseUrl)
-//     .then(response => response.json())
-//     .then(data => {
-//         console.log(data);
-//     });
 
 function pokemonForm() {
      document.getElementById('pokemonquestion').addEventListener
@@ -29,14 +23,9 @@ function displayPokemon(data) {
     h1.innerText = data.name
     document.body.appendChild(h1);
 
+    const img = document.createElement('img');
+    img.src = data.sprites.front_default;
+    document.body.appendChild(img);
 }
 
     
-
-
-    // function getPokemon() {
-    //     const getpokemonanswer = getElementById('pokemonanswer')
-    //     pokemon = getpokemonanswer.value 
-    //     console.log(pokemon)
-
-    // }
