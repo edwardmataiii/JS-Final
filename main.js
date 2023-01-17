@@ -36,9 +36,13 @@ function displayPokemon(data) {
     pokemonHeight.innerText = "Height: " + data.height + " dm";
     document.body.appendChild(pokemonHeight);
 
-    const pokemonB = document.createElement('h3');
-    pokemonB.innerText = data.types[0, 1];
-    document.body.appendChild(pokemonB);
+    // const pokemonB = document.createElement('h3');
+    // pokemonB.innerText = data.types;
+    // document.body.appendChild(pokemonB);
+    
+    
+    
+    
     
     console.log(data.types, "types")
 }
