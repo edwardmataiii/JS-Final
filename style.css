@@ -29,5 +29,15 @@
 body {
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
+    
 }
 
+.eightball {
+
+    margin-left: 840px;
+}
+
+.btn {
+    margin-left: 1200px;
+
+}
